@@ -211,3 +211,4 @@ gaps inner 20
 gaps outer 5
 exec picom
 bindsym $mod+Shift+S exec --no-startup-id maim --select | xclip -selection clipboard -t image/png
+exec nitrogen --restore
